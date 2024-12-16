@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link rel="stylesheet" href="css files\style1.css">
+   <title>Life Care Hospital</title>
+</head>
+
+<body>
+   <header>
+      <ul>
+         <li><img src="images\life_logo.png" class="logo" alt="logo"></li>
+         <li><a href="index.html" class="active">Home</a></li>
+         <li><a href="About us and contact.html">About us</a></li>
+         <li><a href="services.html">services</a></li>
+         <li><a href="Doctors.html">Doctors</a></li>
+         <li><a href="consulting-reservation.html">Consulting Reservation</a></li>
+         <li><a href="Pharmacy.html">Pharmacy</a></li>
+         <a href="signup.html"><img src="images/user.png" alt="" class="user_img"></a>
+         <a href="Cart.html"><img src="images/cart.png" alt="" class="cart_img"></a>
+      </ul>
+
+      <div class="search">
+         <input type="text" class="search-box" placeholder="search medicines, product">
+         <button class="search-btn">search</button>
+      </div>
+   </header>
+   <h1 class="heading_pharmacy">Our Hospital Pharmacy</h1><br>
+   <div class="back_img">
+      <div class="content_back">
+         <h1>Continue with Life Care Hospital Pharmacy</h1>
+         <p>At Life Care Hospital Pharmacy, we prioritize your health by providing easy access to a wide range of
+            medications and pharmaceutical services. With expert pharmacists available to guide you, we ensure safe and
+            effective treatments tailored to your needs. Trust us for quality care, every step of the way.</p>
+         <button class="btn-primary">Get Appointment</button>
+         <button class="btn-secondary">Contact Now</button>
+      </div>
+   </div>
+
+   <div class="features-section">
+      <div class="feature-item">
+         <img src="images/credit-card-payment-safe-secure-icon-free-vector-removebg-preview.png"
+            alt="Secure Payment Icon" class="icon_image01">
+         <h4>Secure Payment</h4>
+         <p>All cards accepted</p>
+      </div>
+      <div class="feature-item">
+         <img src="images/online-support-icon-1.jpg" alt="Online Support Icon" class="icon_image01">
+         <h4>Online Support</h4>
+         <p>Technical 24/7</p>
+      </div>
+      <div class="feature-item">
+         <img src="images/free-shipping-icon.png" alt="Free Shipping Icon" class="icon_image01">
+         <h4>Free Shipping</h4>
+         <p>On all orders</p>
+      </div>
+      <div class="feature-item">
+         <img src="images/10473963.png" alt="Discounts Online Icon" class="icon_image01">
+         <h4>Discounts Online</h4>
+         <p>Weekend Sales</p>
+      </div>
+   </div>
+
+   <div class="product-section">
+
+      <div class="product-section">
+         <div class="product-card">
+            <img src="images/1621551.webp" alt="Protein Supplement" class="product-image">
+            <div class="product-info">
+               <p>STARTING WITH 19$</p>
+               <h3>Protein Supplement</h3>
+               <p>Your Day-life Protection</p>
+               <button class="shop-now">SHOP NOW</button>
+            </div>
+         </div>
+
+         <div class="product-card">
+            <img src="images/321170.webp" alt="Immunity Boosters" class="product-image">
+            <div class="product-info">
+               <p>GET UP TO 26%</p>
+               <p>Starting with 19$</p>
+               <h3>Immunity Boosters</h3>
+               <button class="shop-now">SHOP NOW</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <h2 class="featured_items">Featured Items</h2><br>
+
+   <div class="tablink_container">
+      <div class="tab-container">
+         <div class="tab-filter-container">
+            <li class="filter-btn filter-btn-active" data-tab="Analgesics">Analgesics</li>
+            <li class="filter-btn" data-tab="Antibiotics">Antibiotics</li>
+            <li class="filter-btn" data-tab="Antidepressants">Antidepressants</li>
+            <li class="filter-btn" data-tab="Antihistamines">Antihistamines</li>
+            <li class="filter-btn" data-tab="Antihypertensives">Antihypertensives</li>
+         </div>
+         <div class="tab-container">
+            <div class="tab-filter-item-container">
+               <!-- Analgesics Tab -->
+               <div class="tab-item Analgesics select_tab">
+                  <div class="box-container" id="products">
+                     <!-- Product 1 -->
+                     <div class="box_b" id="product1">
+                        <div class="slide-img">
+                           <img src="images/ibuprofen-tablets-ip-200-mg-.jpg" alt="Ibuprofen 200mg">
+                           <div class="overlay_box">
+                              <p>Effective pain reliever for mild to moderate pain.</p>
+                           </div>
+                        </div>
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Ibuprofen 200mg</a>
+                              <span>popular choice</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0" onclick="qualityinput();">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.250.00</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b" id="product2">
+                        <div class="slide-img">
+                           <img src="images/pack-of-tesco-paracetamol-500mg-tablets-isolated-on-white-.jpg"
+                              alt="Paracetamol 500mg">
+                           <div class="overlay_box">
+                              <p>Paracetamol 500mg is used to treat fever and mild pain.</p>
+                           </div>
+                        </div>
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Paracetamol 500mg</a>
+                              <span>popular choice</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.370.00</a>
+                        </div>
+                     </div>
+
+
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/5fe46385265eff296a97122704b03d7e9525da80-600x600.jpg">
+                           <!-- overlay -->
+                           <div class="overlay_box">
+                              <p>Amoxicillin is a widely used antibiotic that helps treat bacterial infections such as
+                                 ear
+                                 infections, pneumonia, and throat infections.</p>
+                           </div>
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Naproxen 250mg Tablets</a>
+                              <span>antibiotic</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.1142.4</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- box container 2-->
+                  <div class="box-container">
+                     <!-- box -->
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/11880-scaled.jpg">
+                           <!-- overlay -->
+                           <div class="overlay_box">
+                              <p>It is a one of its kind hygiene product that kills 99.99% germs. It also keeps your
+                                 hands
+                                 soft and moisturized.</p>
+                           </div>
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Tramadol Tospitalario 75mg</a>
+                              <span>new arrival</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.455.00</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/c0230314-800px-wm.jpg">
+                           <!-- overlay -->
+                           <div class="overlay_box">
+                              <p>Paracetamol is a common pain relief medicine that helps alleviate mild to moderate
+                                 pain,
+                                 including headaches and muscle aches.</p>
+                           </div>
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Codeine phosphate 15mg</a>
+                              <span>new arrival</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.165.00</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/aspirin-dispersible-tablets.jpg">
+                           <!-- overlay -->
+                           <div class="overlay_box">
+                              <p>Amoxicillin is a widely used antibiotic that helps treat bacterial infections such as
+                                 ear
+                                 infections, pneumonia, and throat infections.</p>
+                           </div>
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Aspirin Dispersible 300mg Tablet</a>
+                              <span>antibiotic</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.176.00</a>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+               <!-- Antibiotics Tab -->
+               <div class="tab-item Antibiotics">
+                  <div class="box-container">
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/Amoxicillin-500mg-caps-21s-2-copy-Copy (1).jpg">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Amoxicillin 500mg</a>
+                              <span>new arrival</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.247.76</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/azithromycin-tablet-i-p-500mg.jpg">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Azithromycin 500mg</a>
+                              <span>new arrival</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.80.00</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/ciprofloxacin-tablets_1618839660.jpg">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Ciprofloxacin</a>
+                              <span>antibiotic</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.142.00</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- box container 2-->
+                  <div class="box-container">
+                     <!-- box -->
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/doxycycline-and-lactic-acid-bacillus-capsules-500x500.webp">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Doxycycline 100mg</a>
+                              <span>new arrival</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.2005.00</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/metronidazole-200mg-tablet-500x500.webp">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Metronidazole</a>
+                              <span>In stock</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.1290.00</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/Cefuroxime500.jpg">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Cefuroxime</a>
+                              <span>antibiotic</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.1817.10</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Antidepressants Tab -->
+               <div class="tab-item Antidepressants">
+                  <div class="box-container">
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/huelva-spain-july-spanish-box-fluoxetine-aurobindo-mg-fluoxetine-ty.webp">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Fluoxetine 20mg</a>
+                              <span>new arrival</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.56.00</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/box-of-ranbaxy-sertraline-antidepressant-50mg-tablets-cut-out-agains.jpg">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">sertraline 50mg</a>
+                              <span>new arrival</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.322.00</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/cifran-500-mg-tablet-500x500.webp">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">citalopram 20mg</a>
+                              <span>antibiotic</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.79.31</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- box container 2-->
+                  <div class="box-container">
+                     <!-- box -->
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/amitriptyline-75-mg-500x500.webp">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">amitriptyline</a>
+                              <span>new arrival</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.200.00</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/escitalopram-10-mg-tablets-500x500.webp">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Escitalopram</a>
+                              <span>new arrival</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.60.99</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/773c6fc7544705b7407154f70921f5d1c67be5e2-1566x1566.jpg">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">duloxetine 20mg</a>
+                              <span>In stock</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.59.35</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Antidepressants Tab -->
+               <div class="tab-item Antihistamines">
+                  <div class="box-container">
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/kyiv-ukrainemay-27-2019-loratadine-260nw-1408679642.webp">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Loratadine</a>
+                              <span>new arrival</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.240.00</a>
+                        </div>>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC8zODY4XC8.webp">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Cetirizine</a>
+                              <span>new arrival</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.58.6</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/b2d2ae77fc904e1385f37eb4aba9bf0a.w_1170,h_2071,r_k.jpg">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">diphenhydramine</a>
+                              <span>Syrup</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.504.00</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="box-container">
+                     <!-- box -->
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/fexofenadine-medication-plastic-vial-antihistamine-used-to-treat-al.webp">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">fexofenadine</a>
+                              <span>In stock</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.43.47</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Antihypertensives Tab -->
+               <div class="tab-item Antihypertensives">
+                  <div class="box-container">
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/1698640445_amlo_10_medikon.jpeg">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Amlodipine 10mg</a>
+                              <span>Per Pack</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.426.00</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/lisinopril-tablets-usp-5-mg-500x500.webp">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Lisinopril 5mg</a>
+                              <span>Category: Prescription Medicine</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.64.03</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/Losartan-25mg-Tabs-28s-2-Copy.jpg">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Losartan 25mg</a>
+                              <span>Pack size:100</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.530.00</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- box container 2-->
+                  <div class="box-container">
+                     <!-- box -->
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/p (1).jpg">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Atenolol 50mg</a>
+                              <span>new arrival</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.350.00</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/99793672009fe521ad70c927e7d04437cd59f1631d07fdae8973a6b4d6251e04.jpeg">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Metoprolol 50mg</a>
+                              <span>new arrival</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.32.07</a>
+                        </div>
+                     </div>
+
+                     <div class="box_b">
+                        <!-- img box -->
+                        <div class="slide-img">
+                           <img src="images/hydrochlorothiazide-tablets-manufacturers_1618896267.jpg">
+                        </div>
+
+                        <!-- details box -->
+                        <div class="detail-box">
+                           <div class="type_d">
+                              <a href="#">Hydrochlorothiazide 25mg</a>
+                              <span>Per pack</span>
+                              <div class="quantity">
+                                 <label for="quantity1">Quantity:</label>
+                                 <input type="number" id="quantity1" min="0" value="0">
+                             </div>
+                           </div>
+                           <a href="#" class="price">Rs.600.00</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div id="current-order-title">
+         <h4>Current Order</h4>
+     </div>
+     
+      <table id="current-order" class="styled-table" border="1" style="width: 100%; text-align: center;">
+         <thead>
+             <tr>
+                 <th>Item</th>
+                 <th>Quantity</th>
+                 <th>Price</th>
+                 <th>Remove</th>
+             </tr>
+         </thead>
+         <tbody>
+         </tbody>
+     </table>
+     <div id="total-container">
+      <h4 id="total-price">Total: <span id="price-amount">Rs. 0.00</span></h4>
+  </div>
+
+  <div class="buttons_container">
+   <button class="Add_to_favourites">Add to favourites</button>
+   <button class="Apply_favourite">Apply Favourites</button>
+   <button class="clear_favouite">Clear favourites</button>
+   <button class="buy_now_button"><a href="payment.html">Buy Now </a></button>
+  </div>
+
+
+      <section class="pharmacy-form">
+         <div class="p_container">
+            <h2>Online Pharmacy</h2>
+            <form action="#" class="Pharmacy_form">
+               <div class="input-box">
+                  <label>Patient Name</label>
+                  <input type="text" placeholder="Enter Patient Name" required>
+               </div>
+               <div class="input-box">
+                  <label>Age</label>
+                  <input type="text" placeholder="Enter Patient Age">
+               </div>
+               <div class="input-box">
+                  <label>Contact Number</label>
+                  <input type="text" placeholder="Enter Contact Number">
+               </div>
+               <div class="input-box">
+                  <label>Email Address</label>
+                  <input type="email" placeholder="Enter Email Address">
+               </div>
+
+               <div class="gender-box">
+                  <h3>Gender</h3>
+                  <div class="gender-option">
+                     <div class="gender">
+                        <input type="radio" id="male" name="gender" />
+                        <label for="male">Male</label>
+                     </div>
+                     <div class="gender">
+                        <input type="radio" id="female" name="gender" />
+                        <label for="female">Female</label>
+                     </div>
+                     <div class="gender">
+                        <input type="radio" id="other" name="gender" />
+                        <label for="other">Prefer not to say</label>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="input-box">
+                  <label>Medicine Request</label>
+                  <textarea placeholder="Enter the medicine you want to order" rows="3"></textarea>
+               </div>
+
+               <div class="input-box">
+                  <input type="submit" value="Submit">
+               </div>
+
+               <div class="input-box">
+                  <p class="form-message">We are here to provide fast and reliable access to the medications you need.
+                  </p>
+               </div>
+            </form>
+         </div>
+      </section>
+
+   
+      <script src="javascript files/home.js"></script>
+      <script src="javascript files/tablink.js"></script>
+      <script src="javascript files/cart.js"></script>
+</body>
+
+</html>

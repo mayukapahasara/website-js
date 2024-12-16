@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="css files\style1.css">
+   <title>Cart - Life Care Hospital</title>
+</head>
+<body>
+
+   <header>
+      <ul>
+         <li><img src="images\life_logo.png" class="logo" alt="logo"></li>
+         <li><a href="index.html" class="active">Home</a></li>
+         <li><a href="About us and contact.html">About us</a></li>
+         <li><a href="services.html">services</a></li>
+         <li><a href="Doctors.html">Doctors</a></li>
+         <li><a href="consulting-reservation.html">Consulting Reservation</a></li>
+         <li><a href="Pharmacy.html">Pharmacy</a></li>
+         <a href="signup.html"><img src="images/user.png" alt="" class="user_img"></a>
+         <a href="Cart.html"><img src="images/cart.png" alt="" class="cart_img"></a>
+      </ul>
+
+      <div class="search">
+         <input type="text" class="search-box" placeholder="search medicines, product">
+         <button class="search-btn">search</button>
+      </div>
+   </header>
+
+   <h1>Your Cart</h1>
+   <table>
+      <thead>
+         <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Action</th>
+         </tr>
+      </thead>
+      <tbody id="cart-items"></tbody>
+   </table>
+   <h2 id="grand-total"></h2>
+   <button id="checkout">Checkout</button>
+
+   <script src="javascript files/cart.js"></script>
+</body>
+</html>

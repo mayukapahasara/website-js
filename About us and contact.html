@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css files\style1.css">
+    <title>Life Care Hospital</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+           <li><img src="images\life_logo.png" class="logo" alt="logo"></li>
+           <li><a href="index.html" class="active">Home</a></li>
+           <li><a href="About us and contact.html">About us</a></li>
+           <li><a href="services.html">services</a></li>
+           <li><a href="Doctors.html">Doctors</a></li>
+           <li><a href="consulting-reservation.html">Consulting Reservation</a></li>
+           <li><a href="Pharmacy.html">Pharmacy</a></li>
+           <a href="signup.html"><img src="images/user.png" alt="" class="user_img"></a>
+           <a href="Cart.html"><img src="images/cart.png" alt="" class="cart_img"></a>
+        </ul>
+  
+        <div class="search">
+           <input type="text" class="search-box" placeholder="search medicines, product">
+           <button class="search-btn">search</button>
+        </div>
+     </header>
+    <div class="about_us_page_name">
+        <div class="contact-bg">
+            <h1 class="About_us_name"><span>About</span> Us</h1>
+        </div>
+    </div>
+
+    <div class="who_we_are">
+        <div class="bg-image">
+            <div class="content">
+                <h2>Who are we?</h2><br><br>
+                <h5>Welcome to Life Care Hospital, where your health is our priority.We are a premier healthcare
+                    institution dedicated to providing to top-quality medical services to our community.<br><br>
+                    At Life Care Hopsital,we blend advanced medical technology with a warm, patient-centered approach,
+                    ensuring the every visit is step towards better health.</h5><br>
+            </div>
+            <img src="images/surgeon.jpg" alt="Avatar" class="Avater_img" style="width:80px">
+            <h3>Dr.Pranith wicramasinghe<br><span>General principle</span></h3>
+        </div>
+
+        <!-- Branch Section -->
+        <section class="branches">
+            <h2 class="Branch_p">Our Branches</h2><br><br>
+
+            <button class="tablink" onclick="openPage('Colombo', this, 'rgb(224, 217, 153)')">Colombo Hospital</button>
+            <button class="tablink" onclick="openPage('Kandy', this, 'rgb(109, 182, 75)')" id="defaultOpen">Kandy
+                Hospital</button>
+            <button class="tablink" onclick="openPage('Anuradhapura', this, 'rgb(42, 162, 218)')">Anuradhapura
+                Hopsital</button>
+            <button class="tablink" onclick="openPage('About', this, '')">contact hospital staff</button>
+
+            <div id="Colombo" class="tabcontent">
+                <!-- Main Branch: Colombo Section -->
+                <div class="about_section">
+                    <div class="about_container">
+                        <div class="content-section">
+                            <h2>Colombo Hospital</h2>
+                            <p>Located in the heart of Sri Lanka's capital, Colombo Hospital is the flagship branch of
+                                Life Care Hospital, renowned for its advanced medical services and exceptional patient
+                                care. Our state-of-the-art facilities include specialized units for cardiology,
+                                neurology, oncology, and emergency services, making it one of the most comprehensive
+                                healthcare centers in the region. With a team of highly experienced doctors, nurses, and
+                                healthcare professionals, we are dedicated to providing personalized care and innovative
+                                treatments tailored to each patient's unique needs. Our Colombo branch is equipped with
+                                the latest medical technologies to ensure that our patients receive the highest standard
+                                of care in a safe and comfortable environment.</p>
+                            <div class="Read_more">
+                                <a href="#">Read more</a>
+                            </div>
+
+                            <!-- Social Media Links -->
+                            <div class="social">
+                                <a href="www.facebook.com"><img src="images/fb-removebg-preview.png" alt="Facebook"
+                                        class="fb"></a>
+                                <a href="#"><img src="images/twitter-removebg-preview (1).png" alt="Twitter"
+                                        class="tw"></a>
+                                <a href="www.instagram.com"><img src="images/instergram-removebg-preview.png"
+                                        alt="Instagram" class="ins"></a>
+                            </div>
+
+
+
+                            <!-- Branch Contact Details -->
+                            <div class="main_branch_icons">
+                                <div class="map_icon">
+                                    <img src="images/25613-removebg-preview.png" alt="Map Icon">
+                                    <h4>342, Negambo Road, Colombo, Sri Lanka.</h4>
+                                </div>
+                                <div class="phone_icon">
+                                    <img src="images/tel-phone-icon-5-removebg-preview.png" alt="Phone Icon">
+                                    <h4>(+021) 221 99 88, 221 99 77</h4>
+                                </div>
+                                <div class="mail_icon">
+                                    <img src="images/free-mail-icon-2569-thumb-removebg-preview.png" alt="Mail Icon">
+                                    <h4>info@Lifecare_Hospital.com</h4>
+                                </div>
+                                <div class="world_icon">
+                                    <img src="images/pngtree-world-icon-png-image_1645053-removebg-preview (1).png"
+                                        alt="Website Icon">
+                                    <h4>www.Lifecare.com</h4>
+                                </div>
+                                <div class="clock_icon">
+                                    <img src="images/clock-icon-512x512-i91r41ub-removebg-preview.png" alt="Clock Icon">
+                                    <h4>24 x 7</h4>
+                                </div>
+
+                                <!-- Google Map Embed -->
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.58638721757!2d79.77380258777409!3d6.922001982175708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e0!3m2!1sen!2slk!4v1725594124214!5m2!1sen!2slk"
+                                    width="500" height="350" class="map_section" style="border:0;" allowfullscreen=""
+                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+
+                        <!-- Branch Image -->
+                        <div class="image-section">
+                            <img src="images/hospitalimage1.jpg" alt="Colombo Hospital" class="colombo_hospital_img">
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <div id="Kandy" class="tabcontent">
+
+        <!-- kandy Hospital -->
+        <div class="about_section-">
+            <div class="about_container_kandy">
+                <div class="content-section_kandy">
+                    <h2>Kandy Hospital</h2>
+                    <p>Nestled in the scenic city of Kandy, our branch serves as a key healthcare provider for the
+                        central region of Sri Lanka. The Kandy branch of Life Care Hospital is designed to offer both
+                        primary and specialized care with a focus on patient well-being and comfort. Equipped with
+                        modern diagnostic facilities, an advanced surgical unit, and a dedicated maternity ward, we
+                        provide comprehensive healthcare services in a serene environment. Our team of highly skilled
+                        professionals ensures that each patient receives personalized treatment, whether for routine
+                        check-ups or more complex medical conditions. At Life Care Kandy, we combine compassionate care
+                        with cutting-edge medical technology to deliver the best possible outcomes for our patients.</p>
+
+                    <div class="Read_more_button">
+                        <a href="#">Read more</a>
+                    </div>
+
+                    <h2 class="direction">Direction</h2>
+
+                    <!-- Google Map Embed -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63320.418063613644!2d80.58458128010453!3d7.294628573375471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!5e0!3m2!1sen!2slk!4v1726191565524!5m2!1sen!2slk"
+                        width="700" height="350" class="kandy_map_section" style="border:0;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <!-- Branch Image -->
+                <div class="kandy_image-section">
+                    <img src="images/hospital2.jpg" alt="Colombo Hospital" class="kandy_hospital_img">
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+
+
+    <div id="Anuradhapura" class="tabcontent">
+
+        <!-- Anuradhapura Hospital -->
+        <div class="about_section-">
+            <div class="about_container_kandy">
+                <div class="content-section_kandy">
+                    <h2>Anuradhapura Hospital</h2>
+                    <p>Located in the historic city of Anuradhapura, the Anuradhapura branch of Life Care Hospital is a
+                        cornerstone of healthcare for the northern region of Sri Lanka. This branch is equipped with
+                        state-of-the-art medical technology and offers a full range of services, including emergency
+                        care, specialized treatments, and comprehensive outpatient services. Our highly experienced
+                        medical team is dedicated to providing exceptional care, ensuring that each patient receives
+                        personalized attention in a supportive and professional environment. With a focus on both
+                        preventative and curative treatments, the Anuradhapura branch aims to enhance the health and
+                        well-being of the community it serves.</p>
+
+                    <div class="Read_more_button">
+                        <a href="#">Read more</a>
+                    </div>
+
+                    <h2 class="direction">Direction</h2>
+
+                    <!-- Google Map Embed -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126325.51655856307!2d80.32091042763697!3d8.335313210601862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afcf4f99360e159%3A0xc111fe9ebc6dcf0e!2sAnuradhapura!5e0!3m2!1sen!2slk!4v1726210904090!5m2!1sen!2slk"
+                        width="600" height="450" class="kandy_map_section" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <!-- Branch Image -->
+                <div class="kandy_image-section">
+                    <img src="images/kandy.webp" alt="Colombo Hospital" class="anu_hospital_img">
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+    </section>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h3 class="title_card"><span>our hospital</span> staff members</h3>
+        <div class="about_section">
+            <div class="card_main">
+                <div class="contact_staff">
+                    <div class="hospital_container">
+                        <div class="staff_card">
+                            <img src="images/surgeon.jpg" alt="" class="staff_img">
+                            <div class="details">
+                                <h4>Dr.Pranith</h4>
+                                <p>General principle</p>
+                                <div class="socialmedia_links">
+                                    <a href="#"><img src="images/icons8-instagram-94.png"></a>
+                                    <a href="#"><img src="images/icons8-facebook-94.png"></a>
+                                    <a href="#"><img src="images/icons8-whatsapp-94.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hospital_container">
+                    <div class="staff_card">
+                        <img src="images/ai-generated-8965851_1280.png" alt="" class="staff_img">
+                        <div class="details">
+                            <h4>Ms. Kavitha Kumari</h4>
+                            <p>Chief Nurse</p>
+                            <div class="socialmedia_links">
+                                <a href="#"><img src="images/icons8-instagram-94.png"></a>
+                                <a href="#"><img src="images/icons8-facebook-94.png"></a>
+                                <a href="#"><img src="images/icons8-whatsapp-94.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hospital_container">
+                    <div class="staff_card">
+                        <img src="images/doctor-indian-38175884.webp" alt="" class="staff_img">
+                        <div class="details">
+                            <h4>Dr. Shalini Perera</h4>
+                            <p>Mental Health Consultant</p>
+                            <div class="socialmedia_links">
+                                <a href="#"><img src="images/icons8-instagram-94.png"></a>
+                                <a href="#"><img src="images/icons8-facebook-94.png"></a>
+                                <a href="#"><img src="images/icons8-whatsapp-94.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hospital_container">
+                    <div class="staff_card">
+                        <img src="images/doctor.jpg" alt="" class="staff_img">
+                        <div class="details">
+                            <h4>Dr. Nimal Perera</h4>
+                            <p>Mental Health Consultant</p>
+                            <div class="socialmedia_links">
+                                <a href="#"><img src="images/icons8-instagram-94.png"></a>
+                                <a href="#"><img src="images/icons8-facebook-94.png"></a>
+                                <a href="#"><img src="images/icons8-whatsapp-94.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_main2">
+                <div class="contact_staff">
+                    <div class="hospital_container">
+                        <div class="staff_card">
+                            <img src="images/pexels-thirdman-5327580.jpg" alt="" class="staff_img">
+                            <div class="details">
+                                <h4>Dr.Vihangi Ekanayake</h4>
+                                <p>General principle</p>
+                                <div class="socialmedia_links">
+                                    <a href="#"><img src="images/icons8-instagram-94.png"></a>
+                                    <a href="#"><img src="images/icons8-facebook-94.png"></a>
+                                    <a href="#"><img src="images/icons8-whatsapp-94.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hospital_container">
+                    <div class="staff_card">
+                        <img src="images/doctor-8461303_640.webp" alt="" class="staff_img">
+                        <div class="details">
+                            <h4>Ms. Piyath Rajapaksha</h4>
+                            <p>Chief Nurse</p>
+                            <div class="socialmedia_links">
+                                <a href="#"><img src="images/icons8-instagram-94.png"></a>
+                                <a href="#"><img src="images/icons8-facebook-94.png"></a>
+                                <a href="#"><img src="images/icons8-whatsapp-94.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hospital_container">
+                    <div class="staff_card">
+                        <img src="images/O6T8LS01.jpg" alt="" class="staff_img">
+                        <div class="details">
+                            <h4>Dr. Shalini Perera</h4>
+                            <p>Mental Health Consultant</p>
+                            <div class="socialmedia_links">
+                                <a href="#"><img src="images/icons8-instagram-94.png"></a>
+                                <a href="#"><img src="images/icons8-facebook-94.png"></a>
+                                <a href="#"><img src="images/icons8-whatsapp-94.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hospital_container">
+                    <div class="staff_card">
+                        <img src="images/shutterstock_155685458.jpg" alt="" class="staff_img">
+                        <div class="details">
+                            <h4>Dr. Indika Jayaweera</h4>
+                            <p>Children care</p>
+                            <div class="socialmedia_links">
+                                <a href="#"><img src="images/icons8-instagram-94.png"></a>
+                                <a href="#"><img src="images/icons8-facebook-94.png"></a>
+                                <a href="#"><img src="images/icons8-whatsapp-94.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+        }
+
+        document.getElementById("defaultOpen").click();
+    </script>
+    </div>
+
+    <h2 class="Branch_details">Branch Details</h2>
+
+    <table class="Branch_table"><br><br>
+        <tr>
+            <th>Branch name</th>
+            <th>services</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Colombo Hospital</td>
+            <td>Emergancy,Dental</td>
+            <td>Open 24/7. Located in the heart of the city.</td>
+        </tr>
+        <tr>
+            <td>colombo Hospital</td>
+            <td>Pharmcy,Mental Health</td>
+            <td>Life Care Hospital offers a wide range of pharmacy services, including prescription filling,
+                medication
+                counseling, home delivery, over-the-counter products, and vaccination services.The mental health
+                department provides compassionate, evidence-based care for individuals facing emotional,
+                psychological,
+                or behavioral challenges. Services include counseling, therapy, psychiatric evaluation, crisis
+                intervention, and substance abuse treatment. </td>
+        </tr>
+        <tr>
+            <td>Kandy Hospital</td>
+            <td>Oncology, Mental Health</td>
+            <td>Specialized in cancer treatment and mental wellness.</td>
+        </tr>
+        <tr>
+            <td>Kandy Hospital</td>
+            <td>General Surgery, ICU</td>
+            <td>Equipped with modern surgical units and intensive care.</td>
+        </tr>
+        <tr>
+            <td>Kandy Hospital</td>
+            <td>speciality care,children's care</td>
+            <td>Johns Hopkins Hospital, founded in 1912, is renowned for its expertise in various medical
+                specialties,
+                including pediatric care, with a comprehensive pediatric medical program.</td>
+        </tr>
+        <tr>
+            <td>Anuradhapura Hospital</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+        </tr>
+    </table>
+
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>Life Care Hospital</h3>
+                    <p>Life Care Hospital provides exceptional healthcare with compassion and expertise. Our skilled
+                        team
+                        is committed to offering comprehensive medical services that prioritize your well-being.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Open Hours</h3>
+                    <p>Our extended hours ensure that you can access the care and services you need at your convenience.
+                        Your health is always our priority.</p>
+                    <h4>Monday-Friday : 8a.m-16p.m<br>
+                        saturday : 9a.m-18p.m
+                    </h4>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About us and contact.html">About Us</a></li>
+                        <li><a href="Doctors.html">Doctors</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="consulting-reservation.html">Consulting and Reservation</a></li>
+                        <li><a href="Pharmacy.html">Pharmacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
